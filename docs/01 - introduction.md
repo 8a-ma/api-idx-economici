@@ -15,7 +15,7 @@ Diseñar una arquitectura de extracción doble (API oficial + Scrapers de contin
 Establecer las funciones aritméticas para el reajuste y cálculo de mora mediante métodos formales, garantizando que el redondeo y la aplicación de tasas de interés compuestas sigan estrictamente la normativa de la Superintendencia de Bancos e Instituciones Financieras (SBIF) y el Banco Central.
 
 ## 4. Exposición de Interfaces de Servicio (Endpoints)
-Implementar una capa de servicios RESTful que exponga la lógica de negocio mediante tres módulos críticos:
+Implementar una capa de servicios REST que exponga la lógica de negocio mediante tres módulos críticos:
     - **Módulo de Consulta Cronológica:** Obtención de escalares financieros por fecha.
     - **Módulo de Conversión Dinámica:** Transformación de unidades monetarias indexadas en tiempo real.
     - **Módulo de Proyección y Reajuste:** Cálculo de montos finales considerando delta de tiempo y tasas de interés variables.
